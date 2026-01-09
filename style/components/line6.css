@@ -1,0 +1,76 @@
+.line6{
+    background-image: url(../../img/back-3.jpg);
+    background-repeat: repeat;
+    padding: 120px 0;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.food h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    background-image: url(../../img/title.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80px;
+    font-family: "Popins";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.food{
+    text-align: center;
+    max-width: 600;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    gap: 15px;
+    font-family: "Popins";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #ffcc34;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.menu a:first-child {
+    background-color: #b8b8b8;
+}
+
+.menu a:not(:first-child):hover {
+    background-color: #b8b8b8;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        grid-template-columns: repeat(2, minmax(150px, 1fr)); 
+    }
+}
+
+@media (max-width: 480px) {
+    .men {
+        grid-template-columns: 1fr; 
+    }
+}

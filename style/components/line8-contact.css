@@ -1,0 +1,74 @@
+.booking{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    width: 60%;
+    padding-right: 50px;
+    margin: 40px 0;
+    margin-left: 60px;
+}
+
+.booking-text div{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.booking-text div p label{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color: #ffcc34;
+    font-family: "Popins";
+}
+
+.booking-text div input{
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 8px 16px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+}
+
+.booking-text div input:focus{
+    border-color: #FFCC33FF;
+}
+
+.booking-text div button{
+    background-color: #ffcc34;
+    font-family: "Popins";
+    display: inline-block;
+    color: #000;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    border: none;
+    transition: .5s;
+}
+
+.booking-text div button:hover{
+    background-color: #b8b8b8;
+    color: #fff;
+}
+
+@media(max-width:999px) {
+    .booking {
+        display: block;
+    }
+
+    .booking-text {
+        width: 100%;
+    }
+}

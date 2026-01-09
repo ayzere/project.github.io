@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.grid img:hover {
+    filter: brightness(80%);
+}
+
+@media(max-width:1000px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

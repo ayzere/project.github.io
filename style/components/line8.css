@@ -1,0 +1,34 @@
+.line8{
+    background-image: url(../../img/back-3.jpg);
+    background-repeat: repeat;
+    padding: 120px 0;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.line8-text h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    background-image: url(../../img/title.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80px;
+    font-family: "Popins";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.line8-text{
+    text-align: center;
+    max-width: 600;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+.photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.img{
+    align-items: center;
+    width: 33%;
+    padding: 10px;
+}
+
+.img img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.img p{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Popins";
+    margin-bottom: 20px;
+}
+
+@media(max-width:600px) {
+    .photo {
+        display: block;
+        padding-left: 33.33%;
+    }
+
+    .img p {
+        margin-left: 25px;
+    }
+}
